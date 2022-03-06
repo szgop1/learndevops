@@ -1,8 +1,0 @@
-docker run \
--d \
--p 8000:8000 \
--e "SPLUNK_START_ARGS=--accept-license" \
--e "SPLUNK_PASSWORD=Ikea1234" \
--v splunk-TA-etc:/opt/splunk/etc \
---name splunk-TA \
-splunk/splunk:latest
